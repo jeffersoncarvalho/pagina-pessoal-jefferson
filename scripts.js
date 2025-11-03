@@ -4,7 +4,8 @@ function say_hello() {
 
 function get_ano(){
     span_ano = document.getElementById("ano")
-    span_ano.innerHTML = "2025"
+    ano_do_sistema = new Date().getFullYear()
+    span_ano.innerHTML = ano_do_sistema
 }
 
 get_ano()
